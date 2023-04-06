@@ -1,0 +1,50 @@
+.content__title {
+  font-size: 48px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.content__title--alt {
+  color: #ff0088;
+}
+
+.content__title--underline {
+  position: relative;
+}
+
+.content__title--underline::after {
+  content: "";
+  position: absolute;
+  height: 8px;
+  width: 100%;
+  background-color: #ff0088;
+  left: 0;
+  bottom: -4px;
+}
+
+.content__header {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.content__main {
+  margin-bottom: 32px;
+}
+
+.content__description {
+  /* margin: 16px 0; */
+  line-height: 24px;
+  word-spacing: 2px;
+}
+
+.content__image {
+  position: absolute;
+  bottom: 56px;
+  right: 0;
+}
+
+.content__cta {
+  margin: 16px 0;
+}
